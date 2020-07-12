@@ -1,0 +1,60 @@
+doctype html
+html
+    head
+        title Dance Academy
+        style
+            include ../static/style.css 
+    body
+      nav#navbar.top
+        ul
+            div#logo 
+              img(src='/static/logo.png')
+              | DA
+            li #[a(href='/') Home]
+            li #[a(href='/') About Us]
+            li #[a(href='/') Sponsers]
+            li #[a(href='/') Contact Us]
+      section#introsec
+        div
+            | WELCOME TO DANCE ACADEMY
+        div.small
+            | EAT DANCE SLEEP REPEAT
+
+      section#moto
+        h2 OUR MISSION
+        
+        div.card 
+          h3 DANCE PERFECTION
+          div.card-box
+            div.card-img 
+              img(src='/static/a.png')
+            div.card-content
+              p this is best academy
+
+        div.card 
+          h3 DANCE IN YOUR STYLE
+          div.card-box
+            div.card-img 
+              img(src='/static/a.png')
+            div.card-content
+              p this is best academy
+
+        div.card 
+          h3 EXPERT TEACHING
+          div.card-box
+            div.card-img 
+              img(src='/static/a.png')
+            div.card-content
+              p this is best academy
+
+      section#sponser
+            h1 OUR SPONSORS
+            div#sp
+              img(src='/static/img/apple.jpg' ,alt='apple', class='spimg')
+              img(src='/static/img/fb.png', alt='apple', class='spimg')
+              img(src='/static/img/hp.png', alt='apple', class='spimg')
+              img(src='/static/img/sam.png', alt='apple', class='spimg')
+      footer#footer
+        | for footer
+
+  script include ../static/index.js 

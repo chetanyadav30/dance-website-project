@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Galada&display=swap');
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+#logo{
+    display: flex;
+    font-size: 24px;
+    color: white;
+    align-items: center;
+    margin:0px 10px;
+    margin-right: 45px;
+}
+
+#logo img{
+    height: 40px;
+    filter: invert(1);
+}
+
+#navbar{
+    background-color: brown;
+    /* border-radius: 6px; */
+    padding: 18px;
+    font-family: 'Yellowtail', cursive;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#navbar li{
+    list-style: none;
+}
+#navbar li a{
+    color: rgb(218, 226, 218);
+    font-size: large;
+    text-decoration: none;
+    padding: 13px 20px;
+}
+#navbar li a:hover{
+    color: black;
+    font-weight: bolder;
+}
+#introsec{
+    height: 400px;
+    /* background-color: aqua; */
+    background: url('/static/bg2.jpg') no-repeat center/cover ;
+    /* background-size: 90% 100%; */
+    font-family: 'Galada', cursive;
+    color:coral;
+    font-size: 60px;
+    /* font-weight: bold; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+
+}
+#introsec div.small{
+    font-size: 40px;
+}
+
+
+#moto{
+    height: 320px;
+    width: 75%;
+    margin: auto;
+    /* display: block; */
+    /* background-color: rgb(189, 172, 206); */
+}
+#moto h2{
+    font-size: 36px;
+    text-align: center;
+    padding: 10px;
+}
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 23px 10px;
+    height: 209px;
+}
+.card h3{
+    text-align: center;
+    margin: 0 12px;
+    margin-top: 24px;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.card-img{
+    height: 131px;
+    padding: 0 14px;
+    margin: 5px 9px;
+}
+.card-img img{
+    height: inherit;
+}
+.card-content{
+    padding: 0 10px;
+}
+.card-content p{
+    font-size: 19px;
+}
+
+#sponser{
+    height: 300px;
+    background-color: rgb(189, 172, 206);
+}
+#sponser h1{
+    font-size: 36px;
+    text-align: center;
+    padding-top: 12px;
+}
+#sp{
+    height: 190px;
+    max-width: 1000px;
+    margin: auto;
+    
+}
+.spimg{
+    height: 70%;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+#footer{
+    background-color: black;
+    color: white;
+    height:50px;
+}
